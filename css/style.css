@@ -146,6 +146,7 @@ p {
     background-position: top;
     background-repeat: no-repeat;
     color: white;
+    position: relative;
 
 
 }
@@ -178,7 +179,7 @@ p {
     
     /* Смещение */
     margin-top: 20px; /* ваш отступ сверху */
-    margin-right: -120px;
+    margin-right: -190px;
 }
 
 
