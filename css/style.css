@@ -759,49 +759,48 @@ p {
   /* PNG поверх черного */
   color: white;
   height: 600px;
-  
+
   /* Точное растяжение по ширине и высоте */
   background-position: bottom;
   background-repeat: no-repeat;
   /* width: 1440px;
   height: 333px; */
-    
-  
 }
 
-.faq__faq{
-    display: flex;
-    text-align: center;
-    color: red;
-    font-weight: bold;
-    font-size: 70px;
-    margin: 0 auto;
-    margin-top: 20px;
+.faq__faq {
+  display: flex;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 70px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
-.faq__question{
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-    display: flex;
-    flex:1;
-    width: 30%;
-    border-radius: 20px;
-    padding: 30px 10px;
-    margin: 20px auto;
+.faq__question {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex: 1;
+  width: 30%;
+  border-radius: 20px;
+  padding: 30px 10px;
+  margin: 20px auto;
 }
 /* /FAQ */
 
 /* Футер */
 .footer {
-  background-color: var(--color-dark);
+  background-color: #390a13;
   color: var(--color-light);
-  padding: var(--spacing-lg) 0;
+  padding: 10px 0;
   text-align: center;
+  
 }
 
-.footer__text {
-  color: rgba(255, 255, 255, 0.7);
-  margin-top: var(--spacing-sm);
+.footer__text{
+    font-weight: bold;
+    font-size: 18px;
 }
