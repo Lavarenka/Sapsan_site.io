@@ -97,7 +97,6 @@ body {
 
 /* Кнопки */
 
-
 p {
   margin: 0 !important;
 }
@@ -470,23 +469,21 @@ p {
 }
 .sub__advantages {
   background-image: url(../images/Group.png);
-  height: 100%; 
+  height: 100%;
   width: 100%;
   background-size: cover;
   background-position: left;
   flex: 1;
- 
 }
 
 .advantages_body {
-  
   color: white;
   height: 400px;
   position: relative;
 }
 
-.advantages__bird{
-    position: absolute;
+.advantages__bird {
+  position: absolute;
   top: 0;
   right: 0;
 
@@ -498,10 +495,10 @@ p {
   background: url("../images/bird2_r.png") center/contain no-repeat;
 
   /* Поверх всех */
-  z-index: 1; 
+  z-index: 1;
 
   /* Смещение */
-  margin-top: 20px; 
+  margin-top: 20px;
   margin-right: 300px;
 }
 
@@ -509,7 +506,6 @@ p {
   height: 200px;
   position: relative;
   z-index: 30;
- 
 }
 
 .advantages_footer img {
@@ -552,7 +548,107 @@ p {
 
 /* /Преимущества */
 
-/* Контакты */
+/* strong */
+.strong {
+  
+  display: flex;
+  position: relative;
+}
+.sub__strong {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: left;
+  flex: 1;
+  color: white;
+}
+
+.strong__top {
+  height: 150px;
+ 
+}
+.strong__body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.strong__force{
+      font-weight: bold;
+  font-size: 70px;
+    margin-left: 40px;
+  color: #ffffff;
+  text-shadow: 0px 0px 7px #fff;
+}
+
+.strong_1 {
+  position: relative;
+  width: 400px;
+  height: 300px;
+ 
+}
+
+
+
+.strong_1 img {
+  width: 200px;
+  height: 300px;
+  
+  margin: 0 auto;
+
+  display: flex;
+}
+.strong_item__h1{
+    position: absolute;
+     width: 400px;
+     top: 16%;
+     color: #F46464;
+     font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.strong_item__line {
+ position: absolute;
+  text-align: center;
+  width: 400px;
+  height: 120px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+  top: 40%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  /* Для контента */
+  color: white; /* Пример цвета текста */
+  z-index: 1;
+}
+
+.strong_item__line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  /* Фоновая картинка */
+  background: url("../images/Clip_short.png") center/cover no-repeat;
+  
+  /* Прозрачность */
+  opacity: 0.4; /* Регулируйте от 0.1 до 0.9 */
+  
+  /* Эффекты для улучшения */
+  filter: brightness(1.2); /* Осветлить картинку если нужно */
+  
+  /* Позиционирование под контентом */
+  z-index: -1;
+}
+/* /strong */
 
 /* FAQ */
 .faq {
