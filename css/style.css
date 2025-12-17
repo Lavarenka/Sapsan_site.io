@@ -550,7 +550,6 @@ p {
 
 /* strong */
 .strong {
-  
   display: flex;
   position: relative;
 }
@@ -566,19 +565,17 @@ p {
 
 .strong__top {
   height: 150px;
- 
 }
-.strong__body{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    
+.strong__body {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
-.strong__force{
-      font-weight: bold;
+.strong__force {
+  font-weight: bold;
   font-size: 70px;
-    margin-left: 40px;
+  margin-left: 40px;
   color: #ffffff;
   text-shadow: 0px 0px 7px #fff;
 }
@@ -587,30 +584,27 @@ p {
   position: relative;
   width: 400px;
   height: 300px;
- 
 }
-
-
 
 .strong_1 img {
   width: 200px;
   height: 300px;
-  
+
   margin: 0 auto;
 
   display: flex;
 }
-.strong_item__h1{
-    position: absolute;
-     width: 400px;
-     top: 16%;
-     color: #F46464;
-     font-size: 50px;
+.strong_item__h1 {
+  position: absolute;
+  width: 400px;
+  top: 16%;
+  color: #f46464;
+  font-size: 50px;
   font-weight: bold;
   text-align: center;
 }
 .strong_item__line {
- position: absolute;
+  position: absolute;
   text-align: center;
   width: 400px;
   height: 120px;
@@ -622,33 +616,102 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
   /* Для контента */
   color: white; /* Пример цвета текста */
   z-index: 1;
 }
 
 .strong_item__line::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  
+
   /* Фоновая картинка */
   background: url("../images/Clip_short.png") center/cover no-repeat;
-  
+
   /* Прозрачность */
   opacity: 0.4; /* Регулируйте от 0.1 до 0.9 */
-  
+
   /* Эффекты для улучшения */
   filter: brightness(1.2); /* Осветлить картинку если нужно */
-  
+
   /* Позиционирование под контентом */
   z-index: -1;
 }
 /* /strong */
+
+/* contact */
+.sub__contact {
+  color: white;
+  height: 600px;
+  background-image: url("../images/Group.png");
+  background-size: 100% 100%;
+  /* Точное растяжение по ширине и высоте */
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 60px;
+}
+
+.sub__contact_bird {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid wheat;
+  /* Размеры */
+  width: 700px;
+  height: 600px;
+  background: url("../images/bird3.png") right/contain no-repeat;
+}
+
+.contact__item_h2 {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 0px 7px #fff;
+
+  font-weight: bold;
+ border: 1px solid red;
+  font-size: 100px;
+  flex: 1 1 auto;
+}
+.contact__item{
+    border: 1px solid red;
+}
+
+.contact__item_form{
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+.contact__item_form input{
+    border-radius: 10px;
+    background-color: red;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 1px 5px;
+}
+
+.contact__item_flag{
+     border-radius: 10px;
+    background-color: red;
+     border: none;
+    color: white;
+    padding: 1px 5px;
+    width: 80px;
+    text-align: center;
+
+}
+/* /contact */
 
 /* FAQ */
 .faq {
