@@ -96,19 +96,7 @@ body {
 }
 
 /* Кнопки */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.8rem 1.8rem;
-  border-radius: var(--border-radius);
-  font-weight: 600;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-  transition: var(--transition);
-  font-family: var(--font-heading);
-}
+
 
 p {
   margin: 0 !important;
@@ -503,31 +491,33 @@ p {
   right: 0;
 
   /* Размеры */
-  width: 900px;
+  width: 350px;
   height: 450px;
 
   /* Фоновая картинка */
-  background: url("../images/bird2.png") center/contain no-repeat;
+  background: url("../images/bird2_r.png") center/contain no-repeat;
 
   /* Поверх всех */
-  z-index: 9999; /* Очень высокий z-index */
+  z-index: 1; 
 
   /* Смещение */
-  margin-top: 20px; /* ваш отступ сверху */
-  margin-right: 160px;
+  margin-top: 20px; 
+  margin-right: 300px;
 }
 
 .advantages_footer {
   height: 200px;
   position: relative;
+  z-index: 30;
+ 
 }
 
 .advantages_footer img {
   position: absolute;
-  bottom: -360px;
+  bottom: -180px;
   left: 0;
   width: 1400px;
-  height: 700px;
+  height: 180%;
 }
 
 .advantages_body_h1 {
