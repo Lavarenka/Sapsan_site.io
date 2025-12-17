@@ -476,95 +476,93 @@ p {
 
 /* Преимущества */
 .advantages {
-  height: 700px;
+  height: 600px;
   display: flex;
   position: relative;
 }
 .sub__advantages {
   background-image: url(../images/Group.png);
-  min-height: 100%; /* Минимальная высота 100% */
+  height: 100%; 
   width: 100%;
   background-size: cover;
   background-position: left;
   flex: 1;
-  border: 1px solid rgb(172, 115, 9);
-
+ 
 }
 
-.advantages_body{
-   
-    border: 1px solid rgb(28, 196, 154);
-    color: white;
-    height: 500px;
+.advantages_body {
+  
+  color: white;
+  height: 400px;
+  position: relative;
 }
 
+.advantages__bird{
+    position: absolute;
+  top: 0;
+  right: 0;
+
+  /* Размеры */
+  width: 900px;
+  height: 450px;
+
+  /* Фоновая картинка */
+  background: url("../images/bird2.png") center/contain no-repeat;
+
+  /* Поверх всех */
+  z-index: 9999; /* Очень высокий z-index */
+
+  /* Смещение */
+  margin-top: 20px; /* ваш отступ сверху */
+  margin-right: 160px;
+}
 
 .advantages_footer {
-    height: 200px;
-    position: relative;
-    border: 1px solid rebeccapurple;
-    /* position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    
-    width: 1400px;
-    height: 300px;
-    
-    
-    /* Разделите свойства background */
-    /* background-image: url("../images/circle_top.png");
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 100% 160%; */ 
+  height: 200px;
+  position: relative;
 }
 
-.advantages_footer img{
-    position: absolute;
-    bottom: -360px;
-    left: 0;
-    width: 1400px;
-    height: 700px;
+.advantages_footer img {
+  position: absolute;
+  bottom: -360px;
+  left: 0;
+  width: 1400px;
+  height: 700px;
 }
 
+.advantages_body_h1 {
+  padding-top: 100px;
+  margin-left: 20%;
+  font-weight: bold;
+  font-size: 90px;
+  margin-bottom: -30px;
+}
+
+.advantages_body_p {
+  margin-left: 28%;
+  font-size: 40px;
+}
+
+.advantages_body_button {
+  width: 200px;
+  text-align: center;
+  background-color: red;
+  padding: 20px 0;
+  margin-left: 32%;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.advantages_body_button a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
 
 /* /Преимущества */
 
 /* Контакты */
-.contacts {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--spacing-xl);
-}
-
-.contacts__info {
-  flex: 1;
-  min-width: 300px;
-}
-
-.contacts__list {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-sm);
-  margin-top: var(--spacing-md);
-}
-
-.contact-item {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-sm);
-}
-
-.contact-item__icon {
-  width: 40px;
-  height: 40px;
-  background-color: var(--color-accent);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
 
 /* FAQ */
 .faq {

@@ -193,11 +193,12 @@
         <div class="container_">
          <div class="sub__advantages">
             <div class="advantages_body">
-                <div class="">TRY US</div>
-                <div class="">and we will prove</div>
-                <div class=""></div>
+                <div class="advantages__bird"></div>
+                <div class="advantages_body_h1">TRY US</div>
+                <div class="advantages_body_p">and we will prove</div>
+                <div class="advantages_body_button"><a href="#">LEARN MORE</a></div>
             </div>
-            <div class="advantages_footer border">
+            <div class="advantages_footer ">
                 <img src="/images/circle_top.png" alt="">
             </div>
          </div> 
@@ -206,7 +207,7 @@
     </section>
 
     <!-- Контакты и FAQ -->
-    <section id="contact" class="section">
+    <section id="contact" class="container_">
         <div class="container">
             <div class="contacts">
                 <div class="contacts__info">
@@ -281,7 +282,7 @@
     </section>
 
     <!-- Футер -->
-    <footer class="footer">
+    <footer class="foote container_r">
         <div class="container">
             <p>&copy; 2023 Agency. All rights reserved.</p>
             <p class="footer__text">Unlock the potential of your business with our digital solutions</p>
@@ -307,13 +308,6 @@
             });
         });
 
-        // Динамическое обновление года в футере
-        document.addEventListener('DOMContentLoaded', function () {
-            const yearSpan = document.querySelector('.footer p');
-            if (yearSpan) {
-                yearSpan.innerHTML = yearSpan.innerHTML.replace('2023', new Date().getFullYear());
-            }
-        });
     </script>
 </body>
 
