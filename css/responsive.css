@@ -1,0 +1,921 @@
+/* Адаптивные стили для всего сайта */
+
+/* ============================================
+   HEAD СЕКЦИЯ (Заголовок)
+   ============================================ */
+
+@media (max-width: 1200px) {
+  .sub__head_bird {
+    width: 400px;
+    height: 350px;
+    margin-right: 0;
+    margin-top: 70px;
+    
+  }
+
+  .head__body_h1 > h1 {
+    font-size: 50px !important;
+  }
+
+  .head__body_h1 {
+    width: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .head {
+    min-height: 500px;
+  }
+
+  .sub__head_bird {
+    width: 400px;
+    height: 250px;
+    margin-right: 0;
+    margin-top: 70px;   
+  }
+
+  .head__body {
+    margin: 30px 0 0 15px;
+  }
+
+  .head__body_h1 > h1 {
+    font-size: 40px !important;
+  }
+
+  .head__body_h1 {
+    width: 80%;
+  }
+
+  .head__body_p {
+    font-size: 18px;
+  }
+
+  .head__footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 30px 0 0 15px;
+  }
+
+  .head__footer_services {
+    margin-right: 0;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .footer_services__item {
+    width: 150px;
+    height: 150px;
+    font-size: 28px;
+    margin: 10px;
+  }
+
+  .footer_button__item {
+    padding: 15px 25px;
+  }
+
+  .footer_button__item a {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .head {
+    min-height: 450px;
+  }
+
+  .sub__head_bird {
+    width: 400px;
+    height: 200px;
+    margin-right: 10px;
+    margin-top: 70px;
+  }
+
+  .head__body_h1 > h1 {
+    font-size: 32px !important;
+  }
+
+  .head__body_p {
+    font-size: 16px;
+  }
+
+  .footer_services__item {
+    width: 120px;
+    height: 120px;
+    font-size: 22px;
+    padding: 8px;
+  }
+
+  .footer_button__item a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .head {
+    min-height: 400px;
+  }
+
+  .sub__head_bird {
+    display: none;
+  }
+
+  .head__body_h1 > h1 {
+    font-size: 28px !important;
+  }
+
+  .head__body_h1 {
+    width: 95%;
+  }
+
+  .head__body_p {
+    font-size: 14px;
+  }
+
+  .head__footer_services {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer_services__item {
+    width: 100%;
+    max-width: 200px;
+    height: 100px;
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  .footer_button__item {
+    padding: 12px 20px;
+  }
+
+  .footer_button__item a {
+    font-size: 18px;
+  }
+}
+
+/* ============================================
+   SERVICES СЕКЦИЯ (Услуги)
+   ============================================ */
+
+@media (max-width: 1200px) {
+  .services {
+    padding: var(--spacing-lg) 0;
+  }
+
+  .services_p {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .services {
+    padding: var(--spacing-md) 0;
+  }
+
+  .services .row {
+    flex-direction: column;
+  }
+
+  .services .col-7 {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .services_window {
+    margin: 10px 0 !important;
+    min-height: 120px;
+  }
+
+  .services_p {
+    font-size: 50px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services {
+    padding: var(--spacing-sm) 0;
+  }
+
+  .services_p {
+    font-size: 40px;
+  }
+
+  .services_window {
+    min-height: 100px;
+  }
+
+  .services_window__boks1 p,
+  .services_window__boks2 {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .services {
+    padding: var(--spacing-xs) 0;
+  }
+
+  .services_p {
+    font-size: 32px;
+  }
+
+  .services_window {
+    min-height: 80px;
+    padding: 10px !important;
+  }
+
+  .services_window__boks1 p,
+  .services_window__boks2 {
+    font-size: 14px !important;
+  }
+}
+
+/* ============================================
+   TEAM СЕКЦИЯ (Команда)
+   ============================================ */
+
+@media (max-width: 1200px) {
+  .team {
+    flex-direction: column;
+    align-items: center;
+    padding: var(--spacing-lg) 0;
+  }
+
+  .team__sidebar {
+    position: relative;
+    right: auto;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 500px;
+  }
+
+  .team__container {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .team {
+    min-height: auto;
+    padding: var(--spacing-md) 0;
+  }
+
+  .team__container_h1 {
+    font-size: 60px;
+  }
+
+  .team__container_p {
+    width: 90%;
+    max-width: 500px;
+    font-size: 13px;
+  }
+
+  .team__sidebar {
+    width: 85%;
+    height: auto;
+    min-height: 400px;
+  }
+
+  .team__sidebar__team {
+    height: auto !important;
+    min-height: 200px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team__container_h1 {
+    font-size: 45px;
+  }
+
+  .team__container_p {
+    font-size: 12px;
+    width: 95%;
+  }
+
+  .team__sidebar {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .team__sidebar_photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .team__sidebar_name p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .team__container_h1 {
+    font-size: 35px;
+  }
+
+  .team__container_p {
+    font-size: 11px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .team__sidebar {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .team__sidebar_photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .team__sidebar_name p {
+    font-size: 16px;
+  }
+}
+
+/* ============================================
+   ADVANTAGES СЕКЦИЯ (Преимущества)
+   ============================================ */
+
+@media (max-width: 1300px) {
+  .advantages {
+    height: auto;
+    min-height: 500px;
+  }
+
+  .advantages_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .advantages_body_h1 {
+    font-size: 75px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .advantages_body_p {
+    font-size: 35px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .advantages_body_button {
+    margin-left: 0;
+    margin: 20px auto;
+    width: 200px;
+  }
+
+  .advantages__bird {
+    width: 350px;
+    height: 450px;
+    margin-right: 0;
+    position: relative;
+    left: auto;
+    right: auto;
+  }
+
+  .advantages_footer img {
+    width: 100%;
+    max-width: 1300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .advantages {
+    height: auto;
+    min-height: 500px;
+  }
+
+  .advantages_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .advantages_body_h1 {
+    font-size: 70px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .advantages_body_p {
+    font-size: 32px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .advantages_body_button {
+    margin-left: 0;
+    margin: 20px auto;
+    width: 200px;
+  }
+
+  .advantages__bird {
+    width: 320px;
+    height: 410px;
+    margin-right: 0;
+    position: relative;
+    left: auto;
+    right: auto;
+  }
+
+  .advantages_footer img {
+    width: 100%;
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .advantages {
+    min-height: 450px;
+  }
+
+  .advantages_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .advantages_body_h1 {
+    font-size: 55px;
+    margin-left: 0;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  .advantages_body_p {
+    font-size: 26px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .advantages_body_button {
+    margin-left: 0;
+    margin: 20px auto;
+    width: 180px;
+    padding: 15px 0;
+  }
+
+  .advantages__bird {
+    width: 280px;
+    height: 360px;
+    margin-right: 0;
+    position: relative;
+    left: auto;
+    right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .advantages {
+    min-height: 400px;
+  }
+
+  .advantages_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .advantages_body_h1 {
+    font-size: 42px;
+    margin-left: 0;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .advantages_body_p {
+    font-size: 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .advantages_body_button {
+    margin-left: 0;
+    margin: 20px auto;
+    width: 160px;
+    padding: 12px 0;
+  }
+
+  .advantages_body_button a {
+    font-size: 15px;
+  }
+
+  .advantages__bird {
+    width: 240px;
+    height: 300px;
+    margin-right: 0;
+    position: relative;
+    left: auto;
+    right: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .advantages {
+    min-height: 350px;
+  }
+
+  .advantages_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .advantages_body_h1 {
+    font-size: 32px;
+    margin-left: 0;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .advantages_body_p {
+    font-size: 16px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .advantages_body_button {
+    margin: 20px auto;
+    width: 140px;
+  }
+
+  .advantages__bird {
+    display: none;
+  }
+
+  .advantages_footer img {
+    height: auto;
+  }
+}
+
+/* ============================================
+   STRONG СЕКЦИЯ (Сильные стороны)
+   ============================================ */
+
+@media (max-width: 1200px) {
+  .strong__body {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .strong_1 {
+    width: 350px;
+  }
+
+  .strong__force {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .strong__body {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .strong_1 {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .strong_1 img {
+    width: 150px;
+    height: auto;
+  }
+
+  .strong_item__h1 {
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .strong_item__line {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .strong__force {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .strong_1 {
+    max-width: 400px;
+  }
+
+  .strong_1 img {
+    width: 120px;
+  }
+
+  .strong_item__h1 {
+    font-size: 32px;
+  }
+
+  .strong_item__line {
+    font-size: 13px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .strong__force {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .strong_1 {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .strong_1 img {
+    width: 100px;
+  }
+
+  .strong_item__h1 {
+    font-size: 28px;
+  }
+
+  .strong_item__line {
+    font-size: 12px;
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+
+  .strong__force {
+    font-size: 32px;
+  }
+}
+
+/* ============================================
+   CONTACT СЕКЦИЯ (Контакты)
+   ============================================ */
+
+@media (max-width: 1200px) {
+  .sub__contact {
+    padding-right: 40px;
+    height: auto;
+    min-height: 550px;
+  }
+
+  .contact__item_h2 {
+    font-size: 80px;
+  }
+
+  .sub__contact_bird {
+    width: 550px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .sub__contact {
+    padding-right: 20px;
+    align-items: center;
+    min-height: 500px;
+  }
+
+  .contact__item_h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+  .contact__item {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .sub__contact_bird {
+    width: 400px;
+    height: 400px;
+    display: none;
+  }
+
+  .contact__item_contact {
+    text-align: left;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sub__contact {
+    padding-right: 15px;
+    min-height: 450px;
+  }
+
+  .contact__item_h2 {
+    font-size: 45px;
+  }
+
+  .sub__contact_bird {
+    width: 300px;
+    height: 300px;
+    
+  }
+
+  .contact__item_form {
+    padding: 15px;
+  }
+
+  .contact__item_mail {
+    font-size: 18px;
+  }
+
+  .item__contact_info {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sub__contact {
+    padding: 20px 10px;
+    min-height: 400px;
+  }
+
+  .contact__item_h2 {
+    font-size: 35px;
+  }
+
+  .sub__contact_bird {
+    display: none;
+  }
+
+  .contact__item_form {
+    padding: 10px;
+  }
+
+  .contact__item_form input {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .contact__item_flag {
+    width: 60px;
+    padding: 8px 5px;
+    font-size: 12px;
+  }
+
+  .contact__item_mail {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .item__contact_info {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .item__contact_num {
+    font-size: 14px;
+  }
+}
+
+/* ============================================
+   FAQ СЕКЦИЯ
+   ============================================ */
+
+@media (max-width: 1200px) {
+  .faq {
+    height: auto;
+    min-height: 500px;
+    padding: var(--spacing-lg) 0;
+  }
+
+  .faq__faq {
+    font-size: 60px;
+  }
+
+  .faq__question {
+    width: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .faq {
+    min-height: 450px;
+    padding: var(--spacing-md) 0;
+  }
+
+  .faq__faq {
+    font-size: 50px;
+  }
+
+  .faq__question {
+    width: 70%;
+    font-size: 18px;
+    padding: 25px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq {
+    min-height: 400px;
+    padding: var(--spacing-sm) 0;
+  }
+
+  .faq__faq {
+    font-size: 40px;
+  }
+
+  .faq__question {
+    width: 85%;
+    font-size: 16px;
+    padding: 20px 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .faq {
+    min-height: 350px;
+    padding: var(--spacing-xs) 0;
+  }
+
+  .faq__faq {
+    font-size: 32px;
+  }
+
+  .faq__question {
+    width: 95%;
+    font-size: 14px;
+    padding: 15px 10px;
+    margin: 15px auto;
+  }
+}
+
+/* ============================================
+   FOOTER (Футер)
+   ============================================ */
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 15px 0;
+  }
+
+  .footer img {
+    max-width: 150px;
+    height: auto;
+  }
+
+  .footer__text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding: 10px 0;
+  }
+
+  .footer img {
+    max-width: 120px;
+  }
+
+  .footer__text {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}
+
+/* ============================================
+   ОБЩИЕ АДАПТИВНЫЕ СТИЛИ
+   ============================================ */
+
+@media (max-width: 992px) {
+  .container_ {
+    padding: 0 15px;
+  }
+
+  .section {
+    padding: var(--spacing-md) 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .container_ {
+    padding: 0 10px;
+  }
+
+  .section {
+    padding: var(--spacing-sm) 0;
+  }
+}
+

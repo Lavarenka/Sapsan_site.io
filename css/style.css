@@ -92,6 +92,7 @@ body {
   background-repeat: no-repeat;
   color: white;
   position: relative;
+ 
 }
 
 .sub__head {
@@ -110,7 +111,7 @@ body {
   right: 0;
 
   /* Размеры */
-  width: 900px;
+  width: 420px;
   height: 450px;
 
   /* Фоновая картинка */
@@ -121,7 +122,7 @@ body {
 
   /* Смещение */
   margin-top: 20px; /* ваш отступ сверху */
-  margin-right: -190px;
+  margin-right: 0px;
 }
 
 .head__top{
