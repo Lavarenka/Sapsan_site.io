@@ -74,60 +74,14 @@ body {
   color: var(--color-light);
 }
 
-/* Заголовки */
-.heading {
-  font-family: var(--font-heading);
-  font-weight: 700;
-  line-height: 1.2;
-}
 
-.heading--h1 {
-  font-size: 3rem;
-  margin-bottom: var(--spacing-md);
-}
 
-.heading--h2 {
-  font-size: 2.2rem;
-  margin-bottom: var(--spacing-md);
-}
-
-.heading--h3 {
-  font-size: 1.5rem;
-  margin-bottom: var(--spacing-sm);
-}
-
-.heading--center {
-  text-align: center;
-}
-
-/* Кнопки */
-
-p {
-  margin: 0 !important;
-}
-
-.btn--primary {
-  background-color: var(--color-accent);
-  color: var(--color-light);
-}
-
-.btn--primary:hover {
-  background-color: var(--color-accent-light);
-  transform: translateY(-2px);
-}
-
-.btn--outline {
-  background-color: transparent;
-  color: var(--color-light);
-  border: 2px solid var(--color-light);
-}
-
-.btn--outline:hover {
-  background-color: var(--color-light);
-  color: var(--color-primary);
-}
 
 /* HEAD секция */
+
+@media(max-width:1000px){
+
+}
 
 .head {
   background-image: url("../images/Group.png");
@@ -168,6 +122,11 @@ p {
   /* Смещение */
   margin-top: 20px; /* ваш отступ сверху */
   margin-right: -190px;
+}
+
+.head__top{
+    display: flex;
+    justify-content: space-between;
 }
 
 .head__top_menu {
@@ -264,6 +223,15 @@ p {
   background-color: white;
   color: red;
 }
+
+@media(max-width:1000px){
+    .head__top{
+        flex-direction: column;
+    }
+}
+
+
+
 
 /* /HEAD секция */
 
